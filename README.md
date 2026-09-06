@@ -83,8 +83,6 @@ Together, these findings suggest coordinated inflammatory and extracellular-matr
 
 📖 [Read the published article](https://journals.umt.edu.pk/index.php/CTO/article/view/7696)
 
-
-
 ## 🔬 Study Workflow
 
 ```text
@@ -118,5 +116,7 @@ The GSE53819 dataset was analyzed to identify differentially expressed genes bet
 ![Differential Expression Analysis](panels.png)
 
 *Figure 1. Differential expression analysis of the GSE53819 dataset, including a volcano plot and UMAP visualization.*
+
+
 
 
