@@ -108,14 +108,15 @@ MCC Hub-Gene Prioritization
    ↓
 Biological Interpretation
 
+
 ## 📊 Results Visualization
 
 ### Differential Expression Analysis
 
 The GSE53819 dataset was analyzed to identify differentially expressed genes between nasopharyngeal carcinoma and normal nasopharyngeal tissue.
 
-**Figure:** Volcano plot and UMAP visualization of the analyzed samples.
-
-![Differential Expression Analysis](results/figures/figure1_deg_analysis.png)
+![Differential Expression Analysis](panels.png)
 
 *Figure 1. Differential expression analysis of the GSE53819 dataset, including a volcano plot and UMAP visualization.*
+
+
