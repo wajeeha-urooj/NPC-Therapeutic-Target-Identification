@@ -76,8 +76,46 @@ Together, these findings suggest coordinated inflammatory and extracellular-matr
 
 **Identification and Elucidation of Therapeutic Targets in Nasopharyngeal Carcinoma: A Computational Approach**
 
+
 *Current Trends in OMICS*, 6(1), 40–63, 2026.
 
 [![DOI](https://img.shields.io/badge/DOI-10.32350%2Fcto.61.03-blue)](https://doi.org/10.32350/cto.61.03)
 
 📖 [Read the published article](https://journals.umt.edu.pk/index.php/CTO/article/view/7696)
+
+
+
+## 🔬 Study Workflow
+
+```text
+GSE53819
+   ↓
+GEO2R Differential Expression
+   ↓
+DEG Filtering
+   ↓
+GO / KEGG Enrichment
+   ↓
+CPA Consensus Analysis
+   ↓
+DAVID Validation
+   ↓
+STRING PPI Network
+   ↓
+Cytoscape + CytoHubba
+   ↓
+MCC Hub-Gene Prioritization
+   ↓
+Biological Interpretation
+
+## 📊 Results Visualization
+
+### Differential Expression Analysis
+
+The GSE53819 dataset was analyzed to identify differentially expressed genes between nasopharyngeal carcinoma and normal nasopharyngeal tissue.
+
+**Figure:** Volcano plot and UMAP visualization of the analyzed samples.
+
+![Differential Expression Analysis](results/figures/figure1_deg_analysis.png)
+
+*Figure 1. Differential expression analysis of the GSE53819 dataset, including a volcano plot and UMAP visualization.*
