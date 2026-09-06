@@ -83,29 +83,20 @@ Together, these findings suggest coordinated inflammatory and extracellular-matr
 
 📖 [Read the published article](https://journals.umt.edu.pk/index.php/CTO/article/view/7696)
 
+
 ## 🔬 Study Workflow
 
-```text
-GSE53819
-   ↓
-GEO2R Differential Expression
-   ↓
-DEG Filtering
-   ↓
-GO / KEGG Enrichment
-   ↓
-CPA Consensus Analysis
-   ↓
-DAVID Validation
-   ↓
-STRING PPI Network
-   ↓
-Cytoscape + CytoHubba
-   ↓
-MCC Hub-Gene Prioritization
-   ↓
-Biological Interpretation
-*Figure 1. Differential expression analysis of the GSE53819 dataset, including a volcano plot and UMAP visualization.*
+```mermaid
+flowchart TD
+    A[GSE53819] --> B[GEO2R Differential Expression]
+    B --> C[DEG Filtering]
+    C --> D[GO / KEGG Enrichment]
+    D --> E[CPA Consensus Analysis]
+    E --> F[DAVID Validation]
+    F --> G[STRING PPI Network]
+    G --> H[Cytoscape + CytoHubba]
+    H --> I[MCC Hub-Gene Prioritization]
+    I --> J[Biological Interpretation]the GSE53819 dataset, including a volcano plot and UMAP visualization.*
 
 
 
