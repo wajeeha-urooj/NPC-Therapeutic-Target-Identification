@@ -113,7 +113,7 @@ Biological Interpretation
 
 The GSE53819 dataset was analyzed to identify differentially expressed genes between nasopharyngeal carcinoma and normal nasopharyngeal tissue.
 
-![Differential Expression Analysis](panels.png)
+![Differential Expression Analysis](./panels.png)
 
 *Figure 1. Differential expression analysis of the GSE53819 dataset, including a volcano plot and UMAP visualization.*
 
