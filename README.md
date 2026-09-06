@@ -90,14 +90,21 @@ Together, these findings suggest coordinated inflammatory and extracellular-matr
 flowchart TD
     A[GSE53819] --> B[GEO2R Differential Expression]
     B --> C[DEG Filtering]
-    C --> D[GO / KEGG Enrichment]
+    C --> D[GO and KEGG Enrichment]
     D --> E[CPA Consensus Analysis]
     E --> F[DAVID Validation]
     F --> G[STRING PPI Network]
-    G --> H[Cytoscape + CytoHubba]
+    G --> H[Cytoscape and CytoHubba]
     H --> I[MCC Hub-Gene Prioritization]
-    I --> J[Biological Interpretation]the GSE53819 dataset, including a volcano plot and UMAP visualization.*
+    I --> J[Biological Interpretation]
+```
 
+## 📊 Results Visualization
 
+### Differential Expression Analysis
 
+The GSE53819 dataset was analyzed to identify differentially expressed genes between nasopharyngeal carcinoma and normal nasopharyngeal tissue.
 
+![Differential Expression Analysis](./panels.png)
+
+*Figure 1. Differential expression analysis of the GSE53819 dataset, including a volcano plot and UMAP visualization.*
