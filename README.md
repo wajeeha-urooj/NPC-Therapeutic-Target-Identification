@@ -83,14 +83,11 @@ Together, these findings suggest coordinated inflammatory and extracellular-matr
 
 📖 [Read the published article](https://journals.umt.edu.pk/index.php/CTO/article/view/7696)
 
-
 ## 🔬 Study Workflow
-
 ```mermaid
 flowchart LR
     A[GSE53819] --> B[GEO2R] --> C[DEG Filtering] --> D[GO/KEGG Enrichment] --> E[STRING PPI] --> F[Cytoscape/CytoHubba] --> G[MCC Hub Genes] --> H[Biological Interpretation]
 ```
-
 ## 📊 Results Visualization
 
 ### Differential Expression Analysis
@@ -100,3 +97,10 @@ The GSE53819 dataset was analyzed to identify differentially expressed genes bet
 <img src="./panels.png" alt="Differential Expression Analysis" width="700">
 
 *Figure 1. Differential expression analysis of the GSE53819 dataset, including a volcano plot and UMAP visualization.*
+### Pathway Enrichment
+
+The enriched pathways identified from the GSE53819 differential-expression results were evaluated using consensus pathway analysis.
+
+<img src="./figure2_pathway_enrichment.png" alt="Pathway enrichment analysis" width="700">
+
+*Figure 2. KEGG pathway enrichment analysis of differentially expressed genes.*
