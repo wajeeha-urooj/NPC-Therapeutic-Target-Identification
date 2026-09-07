@@ -24,7 +24,7 @@ The dataset contains **36 samples**:
 
 **Platform:** Agilent-014850 Whole Human Genome Microarray 4x44K, **GPL6480**
 
-The dataset was obtained from the publicly accessible **Gene Expression Omnibus (GEO)** database and was used for transcriptomic analysis of NPC. :contentReference[oaicite:0]{index=0}
+The dataset was obtained from the publicly accessible **Gene Expression Omnibus (GEO)** database and was used for transcriptomic analysis of NPC. 
 
 ## 🔬 Analysis Methods
 
@@ -69,19 +69,6 @@ Two major network modules were highlighted:
 `FN1 → COL1A1`
 
 Together, these findings suggest coordinated inflammatory and extracellular-matrix processes associated with NPC progression and tumor immune regulation.
-
-## 📄 Publication
-
-**Wajeeha Urooj**, Misbah Jamil, Zaneb Rehman, Aamra Sohail, Sidra Majaz, Ashfaq Ahmad.
-
-**Identification and Elucidation of Therapeutic Targets in Nasopharyngeal Carcinoma: A Computational Approach**
-
-
-*Current Trends in OMICS*, 6(1), 40–63, 2026.
-
-[![DOI](https://img.shields.io/badge/DOI-10.32350%2Fcto.61.03-blue)](https://doi.org/10.32350/cto.61.03)
-
-📖 [Read the published article](https://journals.umt.edu.pk/index.php/CTO/article/view/7696)
 
 ## 🔬 Study Workflow
 ```mermaid
@@ -151,3 +138,29 @@ The protein-protein interaction network was constructed using STRING and visuali
 <img src="./table4_comparison_2022_2026.png" alt="Comparison With Recent NPC Studies" width="800">
 
 *Table 4. Comparison of hub-gene findings with recently published bioinformatics studies of NPC.*
+
+### 🧾 Conclusion
+
+This study identified 10 hub genes associated with NPC through integrated differential-expression, pathway, and PPI network analyses.
+
+Two major molecular modules were highlighted:
+
+Inflammatory cytokine–chemokine signaling
+Extracellular matrix remodeling
+
+Among the identified genes, IL1B, FN1, CXCL8, CXCL12, and COL1A1 showed the strongest supporting evidence in the study and represent candidates for further investigation in NPC biomarker and therapeutic research.
+
+Further functional and clinical validation is required to establish their biological and therapeutic significance.
+
+## 📄 Publication
+
+**Wajeeha Urooj**, Misbah Jamil, Zaneb Rehman, Aamra Sohail, Sidra Majaz, Ashfaq Ahmad.
+
+**Identification and Elucidation of Therapeutic Targets in Nasopharyngeal Carcinoma: A Computational Approach**
+
+
+*Current Trends in OMICS*, 6(1), 40–63, 2026.
+
+[![DOI](https://img.shields.io/badge/DOI-10.32350%2Fcto.61.03-blue)](https://doi.org/10.32350/cto.61.03)
+
+📖 [Read the published article](https://journals.umt.edu.pk/index.php/CTO/article/view/7696)
