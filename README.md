@@ -114,7 +114,7 @@ Consensus pathway analysis identified enriched biological pathways associated wi
 
 The protein-protein interaction network was constructed using STRING and visualized in Cytoscape. CytoHubba with the MCC method was used to prioritize the top hub genes.
 
-<img src="./figure3_hub_gene_network.png" alt="Hub Gene Interaction Network" width="700">
+<img src="./figure3_hub_gene_network.png" alt="Hub Gene Interaction Network" width="600">
 
 *Figure 3. Protein-protein interaction network showing the top 10 hub genes.*
 
