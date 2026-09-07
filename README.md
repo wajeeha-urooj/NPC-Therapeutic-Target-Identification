@@ -102,7 +102,7 @@ Consensus pathway analysis identified enriched biological pathways associated wi
 
 The protein-protein interaction network was constructed using STRING and visualized in Cytoscape. CytoHubba with the MCC method was used to prioritize the top hub genes.
 
-<img src="./figure3_hub_gene_network.png" alt="Hub Gene Interaction Network" width="500">
+<img src="./figure3_hub_gene_network.png" alt="Hub Gene Interaction Network" width="400">
 
 *Figure 3. Protein-protein interaction network showing the top 10 hub genes.*
 
@@ -147,6 +147,7 @@ This study identified 10 hub genes associated with NPC through integrated differ
 Two major molecular modules were highlighted:
 
 Inflammatory cytokine–chemokine signaling
+
 Extracellular matrix remodeling
 
 Among the identified genes, IL1B, FN1, CXCL8, CXCL12, and COL1A1 showed the strongest supporting evidence in the study and represent candidates for further investigation in NPC biomarker and therapeutic research.
