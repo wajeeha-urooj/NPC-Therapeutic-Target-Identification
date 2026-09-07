@@ -91,7 +91,7 @@ The GSE53819 dataset was analyzed to identify differentially expressed genes bet
 
 Consensus pathway analysis identified enriched biological pathways associated with the differentially expressed genes.
 
-<img src="./figure2_pathway_enrichment.png" alt="Pathway Enrichment Analysis" width="700">
+<img src="./figure2_pathway_enrichment.png" alt="Pathway Enrichment Analysis" width="600">
 
 *Figure 2. KEGG pathway enrichment analysis of differentially expressed genes.*
 
@@ -101,7 +101,7 @@ Consensus pathway analysis identified enriched biological pathways associated wi
 
 The protein-protein interaction network was constructed using STRING and visualized in Cytoscape. CytoHubba with the MCC method was used to prioritize the top hub genes.
 
-<img src="./figure3_hub_gene_network.png" alt="Hub Gene Interaction Network" width="700">
+<img src="./figure3_hub_gene_network.png" alt="Hub Gene Interaction Network" width="600">
 
 *Figure 3. Protein-protein interaction network showing the top 10 hub genes.*
 
@@ -111,7 +111,7 @@ The protein-protein interaction network was constructed using STRING and visuali
 
 ### Table 1 | DAVID Pathway Validation
 
-<img src="./table1_david_validation.png" alt="DAVID Pathway Validation" width="800">
+<img src="./table1_david_validation.png" alt="DAVID Pathway Validation" width="700">
 
 *Table 1. Validation of enriched pathways using DAVID.*
 
@@ -119,7 +119,7 @@ The protein-protein interaction network was constructed using STRING and visuali
 
 ### Table 2 | GO Enrichment Analysis
 
-<img src="./table2_go_enrichment.png" alt="GO Enrichment Analysis" width="800">
+<img src="./table2_go_enrichment.png" alt="GO Enrichment Analysis" width="700">
 
 *Table 2. Gene Ontology enrichment analysis of differentially expressed genes.*
 
@@ -127,7 +127,7 @@ The protein-protein interaction network was constructed using STRING and visuali
 
 ### Table 3 | Hub Gene Enrichment
 
-<img src="./table3_hub_gene_enrichment.png" alt="Hub Gene Enrichment Analysis" width="800">
+<img src="./table3_hub_gene_enrichment.png" alt="Hub Gene Enrichment Analysis" width="700">
 
 *Table 3. GO and pathway enrichment analysis of the identified hub genes.*
 
@@ -135,7 +135,7 @@ The protein-protein interaction network was constructed using STRING and visuali
 
 ### Table 4 | Comparison With Recent NPC Studies
 
-<img src="./table4_comparison_2022_2026.png" alt="Comparison With Recent NPC Studies" width="800">
+<img src="./table4_comparison_2022_2026.png" alt="Comparison With Recent NPC Studies" width="700">
 
 *Table 4. Comparison of hub-gene findings with recently published bioinformatics studies of NPC.*
 
